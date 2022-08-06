@@ -1,0 +1,52 @@
+.sidebar {
+  color: #fbfaff;
+  &-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    height: 20px;
+    color: darkgray;
+  }
+
+  &-item {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    &-icon {
+      width: 20px;
+
+      & > img {
+        color:#fbfaff
+      }
+    }
+    &-arrow {
+      width: 20px;
+    }
+
+    &-title {
+      width: calc(100% - 60px);
+      padding-left: 5px;
+      font-weight: 600;
+      font-size: 16px;
+      text-decoration: none !important;
+    }
+
+    // &:hover {
+    //   cursor: pointer;
+    // }
+  }
+
+  &-active {
+    color: red
+  }
+}
+
+.sidebar-main-logo {
+  max-width: 100px;
+}
+
+.container {
+  margin-right: 15px !important;
+}

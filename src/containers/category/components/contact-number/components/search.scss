@@ -1,0 +1,17 @@
+.input-date {
+  width: 120%;
+  height: 32px;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  // &:hover {
+  //   border-color: #1890ff;
+  // }
+  &:focus-visible {
+    border-color: #1890ff !important;
+    outline: none;
+  }
+}
